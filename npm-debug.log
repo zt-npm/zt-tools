@@ -1,0 +1,99 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--force' ]
+2 info using npm@3.5.2
+3 info using node@v4.0.0
+4 warn using --force I sure hope you know what you are doing.
+5 verbose publish [ '.' ]
+6 silly cache add args [ '.', null ]
+7 verbose cache add spec .
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: '.',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '.',
+8 silly cache add   spec: '/Users/zhentaoo/Code/zt-tools',
+8 silly cache add   type: 'directory' }
+9 verbose addLocalDirectory /Users/zhentaoo/.npm/zt-tools/0.1.0/package.tgz not in flight; packing
+10 info lifecycle zt-tools@0.1.0~prepublish: zt-tools@0.1.0
+11 silly lifecycle zt-tools@0.1.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/zhentaoo/.npm/zt-tools/0.1.0/package.tgz',
+12 verbose tar pack   '/Users/zhentaoo/Code/zt-tools' ]
+13 verbose tarball /Users/zhentaoo/.npm/zt-tools/0.1.0/package.tgz
+14 verbose folder /Users/zhentaoo/Code/zt-tools
+15 verbose addLocalTarball adding from inside cache /Users/zhentaoo/.npm/zt-tools/0.1.0/package.tgz
+16 silly cache afterAdd zt-tools@0.1.0
+17 verbose afterAdd /Users/zhentaoo/.npm/zt-tools/0.1.0/package/package.json not in flight; writing
+18 verbose afterAdd /Users/zhentaoo/.npm/zt-tools/0.1.0/package/package.json written
+19 silly publish { name: 'zt-tools',
+19 silly publish   version: '0.1.0',
+19 silly publish   description: 'javascript tools by zhentaoo',
+19 silly publish   main: 'index.js',
+19 silly publish   directories: { test: 'test' },
+19 silly publish   scripts: { test: 'mocha' },
+19 silly publish   repository:
+19 silly publish    { type: 'git',
+19 silly publish      url: 'git+ssh://git@github.com/zhentaoo/zt-tools.git' },
+19 silly publish   keywords: [ 'tools' ],
+19 silly publish   author: { name: 'zhentaoo' },
+19 silly publish   license: 'ISC',
+19 silly publish   bugs: { url: 'https://github.com/zhentaoo/zt-tools/issues' },
+19 silly publish   homepage: 'https://github.com/zhentaoo/zt-tools#readme',
+19 silly publish   readme: 'ERROR: No README data found!',
+19 silly publish   readmeFilename: 'readme.md',
+19 silly publish   gitHead: 'bdc5df3c57555b23d7adfdbdebb12310331bfbc4',
+19 silly publish   _id: 'zt-tools@0.1.0',
+19 silly publish   _shasum: 'c41bc6af34e4f06b11dd92011a67947a7b7eb143',
+19 silly publish   _from: '.' }
+20 verbose getPublishConfig undefined
+21 silly mapToRegistry name zt-tools
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/zt-tools
+25 verbose publish registryBase https://registry.npmjs.org/
+26 silly publish uploading /Users/zhentaoo/.npm/zt-tools/0.1.0/package.tgz
+27 verbose request uri https://registry.npmjs.org/zt-tools
+28 verbose request sending authorization for write operation
+29 info attempt registry request try #1 at 21:27:53
+30 verbose request using bearer token for auth
+31 verbose request id 1344deeaa5f7f44d
+32 http request PUT https://registry.npmjs.org/zt-tools
+33 http 403 https://registry.npmjs.org/zt-tools
+34 verbose headers { 'content-type': 'application/json',
+34 verbose headers   'cache-control': 'max-age=300',
+34 verbose headers   'content-length': '128',
+34 verbose headers   'accept-ranges': 'bytes',
+34 verbose headers   date: 'Sun, 13 Dec 2015 13:27:51 GMT',
+34 verbose headers   via: '1.1 varnish',
+34 verbose headers   connection: 'keep-alive',
+34 verbose headers   'x-served-by': 'cache-nrt6124-NRT',
+34 verbose headers   'x-cache': 'MISS',
+34 verbose headers   'x-cache-hits': '0',
+34 verbose headers   'x-timer': 'S1450013270.459147,VS0,VE585' }
+35 verbose request invalidating /Users/zhentaoo/.npm/registry.npmjs.org/zt-tools on PUT
+36 error publish Failed PUT 403
+37 verbose stack Error: "You cannot publish over the previously published version 0.1.0. Try bumping the version to 2.0.0" : zt-tools
+37 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+37 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+37 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+37 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+37 verbose stack     at emitTwo (events.js:87:13)
+37 verbose stack     at Request.emit (events.js:172:7)
+37 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+37 verbose stack     at emitOne (events.js:82:20)
+37 verbose stack     at Request.emit (events.js:169:7)
+37 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+38 verbose statusCode 403
+39 verbose pkgid zt-tools
+40 verbose cwd /Users/zhentaoo/Code/zt-tools
+41 error Darwin 15.0.0
+42 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "--force"
+43 error node v4.0.0
+44 error npm  v3.5.2
+45 error code E403
+46 error "You cannot publish over the previously published version 0.1.0. Try bumping the version to 2.0.0" : zt-tools
+47 error If you need help, you may report this error at:
+47 error     <https://github.com/npm/npm/issues>
+48 verbose exit [ 1, true ]
