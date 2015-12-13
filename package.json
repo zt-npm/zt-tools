@@ -1,0 +1,25 @@
+{
+  "name": "zt-tools",
+  "version": "0.1.0",
+  "description": "javascript tools by zhentaoo",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhentaoo/zt-tools.git"
+  },
+  "keywords": [
+    "tools"
+  ],
+  "author": "zhentaoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhentaoo/zt-tools/issues"
+  },
+  "homepage": "https://github.com/zhentaoo/zt-tools#readme"
+}
