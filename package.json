@@ -1,6 +1,6 @@
 {
   "name": "zt-tools",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "javascript tools by zhentaoo",
   "main": "index.js",
   "directories": {

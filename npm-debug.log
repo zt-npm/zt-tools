@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'thrift/transport' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.3
+4 verbose install initial load of /Users/zhentaoo/Code/zt-tools/package.json
+5 warn package.json zt-tools@0.1.5 No README data
+6 verbose installManyTop reading scoped package data from /Users/zhentaoo/Code/zt-tools/node_modules/lodash/package.json
+7 verbose installManyTop reading scoped package data from /Users/zhentaoo/Code/zt-tools/node_modules/thrift/package.json
+8 verbose readDependencies loading dependencies from /Users/zhentaoo/Code/zt-tools/package.json
+9 silly cache add args [ 'thrift/transport', null ]
+10 verbose cache add spec thrift/transport
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'thrift/transport',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'thrift/transport',
+11 silly cache add   spec: 'github:thrift/transport',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:thrift/transport.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/thrift/transport.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/thrift/transport.git',
+11 silly cache add      gitUrl: 'git://github.com/thrift/transport.git',
+11 silly cache add      shortcut: 'github:thrift/transport',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/thrift/transport/master/package.json' } }
+12 verbose addRemoteGit caching thrift/transport
+13 verbose addRemoteGit thrift/transport is a repository hosted by github
+14 silly tryGitProto attempting to clone git://github.com/thrift/transport.git
+15 silly tryClone cloning thrift/transport via git://github.com/thrift/transport.git
+16 verbose tryClone git-github-com-thrift-transport-git-bab04f6d not in flight; caching
+17 info git [ 'clone',
+17 info git   '--template=/Users/zhentaoo/.npm/_git-remotes/_templates',
+17 info git   '--mirror',
+17 info git   'git://github.com/thrift/transport.git',
+17 info git   '/Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-bab04f6d' ]
+18 verbose git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror git://github.com/thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-bab04f6d: Cloning into bare repository '/Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-bab04f6d'...
+18 verbose git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror git://github.com/thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-bab04f6d: fatal: remote error:
+18 verbose git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror git://github.com/thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-bab04f6d:   Repository not found.
+19 silly tryHTTPS attempting to clone git+https://github.com/thrift/transport.git
+20 silly tryClone cloning thrift/transport via git+https://github.com/thrift/transport.git
+21 verbose tryClone https-github-com-thrift-transport-git-415410e7 not in flight; caching
+22 info git [ 'clone',
+22 info git   '--template=/Users/zhentaoo/.npm/_git-remotes/_templates',
+22 info git   '--mirror',
+22 info git   'https://github.com/thrift/transport.git',
+22 info git   '/Users/zhentaoo/.npm/_git-remotes/https-github-com-thrift-transport-git-415410e7' ]
+23 verbose git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror https://github.com/thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/https-github-com-thrift-transport-git-415410e7: Cloning into bare repository '/Users/zhentaoo/.npm/_git-remotes/https-github-com-thrift-transport-git-415410e7'...
+23 verbose git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror https://github.com/thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/https-github-com-thrift-transport-git-415410e7: remote: Invalid username or password.
+23 verbose git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror https://github.com/thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/https-github-com-thrift-transport-git-415410e7: fatal: Authentication failed for 'https://github.com/thrift/transport.git/'
+24 silly trySSH attempting to clone git@github.com:thrift/transport.git
+25 silly tryClone cloning thrift/transport via git@github.com:thrift/transport.git
+26 verbose tryClone git-github-com-thrift-transport-git-53306f5a not in flight; caching
+27 info git [ 'clone',
+27 info git   '--template=/Users/zhentaoo/.npm/_git-remotes/_templates',
+27 info git   '--mirror',
+27 info git   'git@github.com:thrift/transport.git',
+27 info git   '/Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a' ]
+28 error git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror git@github.com:thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a: Cloning into bare repository '/Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a'...
+28 error git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror git@github.com:thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a: ERROR: Repository not found.
+28 error git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror git@github.com:thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a: fatal: Could not read from remote repository.
+28 error git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror git@github.com:thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a:
+28 error git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror git@github.com:thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a: Please make sure you have the correct access rights
+28 error git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror git@github.com:thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a: and the repository exists.
+29 verbose stack Error: Command failed: git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror git@github.com:thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a
+29 verbose stack Cloning into bare repository '/Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a'...
+29 verbose stack ERROR: Repository not found.
+29 verbose stack fatal: Could not read from remote repository.
+29 verbose stack
+29 verbose stack Please make sure you have the correct access rights
+29 verbose stack and the repository exists.
+29 verbose stack
+29 verbose stack     at ChildProcess.exithandler (child_process.js:203:12)
+29 verbose stack     at emitTwo (events.js:87:13)
+29 verbose stack     at ChildProcess.emit (events.js:172:7)
+29 verbose stack     at maybeClose (internal/child_process.js:818:16)
+29 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+30 verbose cwd /Users/zhentaoo/Code/zt-tools
+31 error Darwin 15.0.0
+32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "thrift/transport"
+33 error node v4.2.3
+34 error npm  v2.14.7
+35 error code 128
+36 error Command failed: git clone --template=/Users/zhentaoo/.npm/_git-remotes/_templates --mirror git@github.com:thrift/transport.git /Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a
+36 error Cloning into bare repository '/Users/zhentaoo/.npm/_git-remotes/git-github-com-thrift-transport-git-53306f5a'...
+36 error ERROR: Repository not found.
+36 error fatal: Could not read from remote repository.
+36 error
+36 error Please make sure you have the correct access rights
+36 error and the repository exists.
+37 error If you need help, you may report this error at:
+37 error     <https://github.com/npm/npm/issues>
+38 verbose exit [ 1, true ]
