@@ -1,4 +1,4 @@
-var data = {
+var tree = {
   name: 'root',
   children: [{
     name: 'child1',
@@ -17,6 +17,7 @@ var data = {
     name: 'child3'
   }]
 };
+
 
 function traverse(node, i) {
   var children = node.children;
